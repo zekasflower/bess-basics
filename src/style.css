@@ -1,0 +1,13 @@
+/* FONTS */
+/* Qwitcher Grypen (en) // Aref Ruqaa (ar) // Amiri */
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Aref+Ruqaa:wght@400;700&family=Qwitcher+Grypen:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-amiri text-sm leading-6 md:text-base md:leading-7 bg-[#ECF0F1] text-primary font-light selection:bg-primary/20 selection:text-tint-1
+
+}
